@@ -403,8 +403,8 @@ importers:
       nanostores: ^0.5.12
       preact: ^10.7.3
     dependencies:
-      '@nanostores/preact': 0.1.3_yogujzpkuq4uodof3hzljmwilu
-      nanostores: 0.5.12
+      '@nanostores/preact': 0.1.3_pa3xukydir6z2au37iozbd2d64
+      nanostores: 0.5.13
       preact: 10.10.0
     devDependencies:
       '@astrojs/preact': link:../../packages/integrations/preact
@@ -424,7 +424,7 @@ importers:
       autoprefixer: 10.4.8_postcss@8.4.14
       canvas-confetti: 1.5.1
       postcss: 8.4.14
-      tailwindcss: 3.1.6
+      tailwindcss: 3.1.7
 
   examples/with-vite-plugin-pwa:
     specifiers:
@@ -587,7 +587,7 @@ importers:
       yargs-parser: 21.0.1
       zod: 3.17.10
     devDependencies:
-      '@playwright/test': 1.24.1
+      '@playwright/test': 1.24.2
       '@types/babel__core': 7.1.19
       '@types/babel__generator': 7.6.4
       '@types/babel__traverse': 7.17.1
@@ -1949,7 +1949,7 @@ importers:
       astro: link:../../..
       autoprefixer: 10.4.8_postcss@8.4.14
       postcss: 8.4.14
-      tailwindcss: 3.1.6
+      tailwindcss: 3.1.7
 
   packages/astro/test/fixtures/type-imports:
     specifiers:
@@ -2340,7 +2340,7 @@ importers:
       '@types/mocha': 9.1.1
       astro: link:../../astro
       astro-scripts: link:../../../scripts
-      playwright: 1.24.1
+      playwright: 1.24.2
 
   packages/integrations/prefetch/test/fixtures/basic-prefetch:
     specifiers:
@@ -2430,7 +2430,7 @@ importers:
       '@proload/core': 0.3.2
       autoprefixer: 10.4.8_postcss@8.4.14
       postcss: 8.4.14
-      tailwindcss: 3.1.6
+      tailwindcss: 3.1.7
     devDependencies:
       astro: link:../../astro
       astro-scripts: link:../../../scripts
@@ -2802,7 +2802,7 @@ packages:
       react-dom:
         optional: true
     dependencies:
-      '@react-aria/i18n': 3.5.0_react@18.2.0
+      '@react-aria/i18n': 3.5.1_react@18.2.0
       '@react-aria/ssr': 3.3.0_react@18.2.0
       '@react-aria/visually-hidden': 3.4.0_react@18.2.0
       '@react-spectrum/actiongroup': 3.6.0_iarnvdza54cgar6atbptfawwvm
@@ -4344,7 +4344,7 @@ packages:
       babel-plugin-polyfill-corejs2: 0.3.2_@babel+core@7.18.9
       babel-plugin-polyfill-corejs3: 0.5.3_@babel+core@7.18.9
       babel-plugin-polyfill-regenerator: 0.3.1_@babel+core@7.18.9
-      core-js-compat: 3.24.0
+      core-js-compat: 3.24.1
       semver: 6.3.0
     transitivePeerDependencies:
       - supports-color
@@ -5254,14 +5254,14 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@nanostores/preact/0.1.3_yogujzpkuq4uodof3hzljmwilu:
+  /@nanostores/preact/0.1.3_pa3xukydir6z2au37iozbd2d64:
     resolution: {integrity: sha512-uiX1ned0LrzASot+sPUjyJzr8Js3pX075omazgsSdLf0zPp4ss8xwTiuNh5FSKigTSQEVqZFiS+W8CnHIrX62A==}
     engines: {node: ^12.0.0 || ^14.0.0 || >=16.0.0}
     peerDependencies:
       nanostores: ^0.5.2
       preact: '>=10.0.0'
     dependencies:
-      nanostores: 0.5.12
+      nanostores: 0.5.13
       preact: 10.10.0
     dev: false
 
@@ -5412,13 +5412,13 @@ packages:
       '@octokit/openapi-types': 12.11.0
     dev: true
 
-  /@playwright/test/1.24.1:
-    resolution: {integrity: sha512-VJ9qekMis7Oze2Q/Vb+w1g2aPaJFRdl5vhTS6h82kG89Jb8trlU2WHY7oYzNRjvFPoVUMcWXiblH2bWcbEax/A==}
+  /@playwright/test/1.24.2:
+    resolution: {integrity: sha512-Q4X224pRHw4Dtkk5PoNJplZCokLNvVbXD9wDQEMrHcEuvWpJWEQDeJ9gEwkZ3iCWSFSWBshIX177B231XW4wOQ==}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
       '@types/node': 18.6.2
-      playwright-core: 1.24.1
+      playwright-core: 1.24.2
     dev: true
 
   /@polka/url/1.0.0-next.21:
@@ -5450,7 +5450,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.18.9
       '@react-aria/focus': 3.7.0_react@18.2.0
-      '@react-aria/i18n': 3.5.0_react@18.2.0
+      '@react-aria/i18n': 3.5.1_react@18.2.0
       '@react-aria/interactions': 3.10.0_react@18.2.0
       '@react-aria/selection': 3.10.0_react@18.2.0
       '@react-aria/utils': 3.13.2_react@18.2.0
@@ -5470,7 +5470,7 @@ packages:
         optional: true
     dependencies:
       '@babel/runtime': 7.18.9
-      '@react-aria/i18n': 3.5.0_react@18.2.0
+      '@react-aria/i18n': 3.5.1_react@18.2.0
       '@react-aria/interactions': 3.10.0_react@18.2.0
       '@react-aria/link': 3.3.2_react@18.2.0
       '@react-aria/utils': 3.13.2_react@18.2.0
@@ -5510,7 +5510,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.18.9
       '@internationalized/date': 3.0.1
-      '@react-aria/i18n': 3.5.0_react@18.2.0
+      '@react-aria/i18n': 3.5.1_react@18.2.0
       '@react-aria/interactions': 3.10.0_react@18.2.0
       '@react-aria/live-announcer': 3.1.1
       '@react-aria/utils': 3.13.2_react@18.2.0
@@ -5553,7 +5553,7 @@ packages:
         optional: true
     dependencies:
       '@babel/runtime': 7.18.9
-      '@react-aria/i18n': 3.5.0_react@18.2.0
+      '@react-aria/i18n': 3.5.1_react@18.2.0
       '@react-aria/interactions': 3.10.0_react@18.2.0
       '@react-aria/listbox': 3.6.0_react@18.2.0
       '@react-aria/live-announcer': 3.1.1
@@ -5588,7 +5588,7 @@ packages:
       '@internationalized/number': 3.1.1
       '@internationalized/string': 3.0.0
       '@react-aria/focus': 3.7.0_react@18.2.0
-      '@react-aria/i18n': 3.5.0_react@18.2.0
+      '@react-aria/i18n': 3.5.1_react@18.2.0
       '@react-aria/interactions': 3.10.0_react@18.2.0
       '@react-aria/label': 3.4.0_react@18.2.0
       '@react-aria/spinbutton': 3.1.2_biqbaboplfbrettd7655fr4n2y
@@ -5649,7 +5649,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.18.9
       '@react-aria/focus': 3.7.0_react@18.2.0
-      '@react-aria/i18n': 3.5.0_react@18.2.0
+      '@react-aria/i18n': 3.5.1_react@18.2.0
       '@react-aria/interactions': 3.10.0_react@18.2.0
       '@react-aria/live-announcer': 3.1.1
       '@react-aria/selection': 3.10.0_react@18.2.0
@@ -5664,8 +5664,8 @@ packages:
       react-dom: 18.2.0_react@18.2.0
     dev: false
 
-  /@react-aria/i18n/3.5.0_react@18.2.0:
-    resolution: {integrity: sha512-9hqOOmG69QdVjTGWHADPrBxxMffz3wi4/ya0VZOKlGbFwqRZZp3TSpz0JdH1kE7h3+YIfrz/jPFJ/CADx9bJLQ==}
+  /@react-aria/i18n/3.5.1_react@18.2.0:
+    resolution: {integrity: sha512-PtlQ/W1PXVKzCGK86MuGuCzYBwENDBjrQ2a4ux+BBQ2Dk8ZXEARSp9JaMFuOdiloXc/p4FoxCVoB+lhu4RCScg==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0
     peerDependenciesMeta:
@@ -5768,7 +5768,7 @@ packages:
         optional: true
     dependencies:
       '@babel/runtime': 7.18.9
-      '@react-aria/i18n': 3.5.0_react@18.2.0
+      '@react-aria/i18n': 3.5.1_react@18.2.0
       '@react-aria/interactions': 3.10.0_react@18.2.0
       '@react-aria/overlays': 3.10.0_biqbaboplfbrettd7655fr4n2y
       '@react-aria/selection': 3.10.0_react@18.2.0
@@ -5810,7 +5810,7 @@ packages:
         optional: true
     dependencies:
       '@babel/runtime': 7.18.9
-      '@react-aria/i18n': 3.5.0_react@18.2.0
+      '@react-aria/i18n': 3.5.1_react@18.2.0
       '@react-aria/interactions': 3.10.0_react@18.2.0
       '@react-aria/live-announcer': 3.1.1
       '@react-aria/spinbutton': 3.1.2_biqbaboplfbrettd7655fr4n2y
@@ -5837,7 +5837,7 @@ packages:
         optional: true
     dependencies:
       '@babel/runtime': 7.18.9
-      '@react-aria/i18n': 3.5.0_react@18.2.0
+      '@react-aria/i18n': 3.5.1_react@18.2.0
       '@react-aria/interactions': 3.10.0_react@18.2.0
       '@react-aria/ssr': 3.3.0_react@18.2.0
       '@react-aria/utils': 3.13.2_react@18.2.0
@@ -5859,7 +5859,7 @@ packages:
         optional: true
     dependencies:
       '@babel/runtime': 7.18.9
-      '@react-aria/i18n': 3.5.0_react@18.2.0
+      '@react-aria/i18n': 3.5.1_react@18.2.0
       '@react-aria/label': 3.4.0_react@18.2.0
       '@react-aria/utils': 3.13.2_react@18.2.0
       '@react-types/progress': 3.2.2_react@18.2.0
@@ -5877,7 +5877,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.18.9
       '@react-aria/focus': 3.7.0_react@18.2.0
-      '@react-aria/i18n': 3.5.0_react@18.2.0
+      '@react-aria/i18n': 3.5.1_react@18.2.0
       '@react-aria/interactions': 3.10.0_react@18.2.0
       '@react-aria/label': 3.4.0_react@18.2.0
       '@react-aria/utils': 3.13.2_react@18.2.0
@@ -5896,7 +5896,7 @@ packages:
         optional: true
     dependencies:
       '@babel/runtime': 7.18.9
-      '@react-aria/i18n': 3.5.0_react@18.2.0
+      '@react-aria/i18n': 3.5.1_react@18.2.0
       '@react-aria/interactions': 3.10.0_react@18.2.0
       '@react-aria/textfield': 3.7.0_react@18.2.0
       '@react-aria/utils': 3.13.2_react@18.2.0
@@ -5919,7 +5919,7 @@ packages:
         optional: true
     dependencies:
       '@babel/runtime': 7.18.9
-      '@react-aria/i18n': 3.5.0_react@18.2.0
+      '@react-aria/i18n': 3.5.1_react@18.2.0
       '@react-aria/interactions': 3.10.0_react@18.2.0
       '@react-aria/label': 3.4.0_react@18.2.0
       '@react-aria/listbox': 3.6.0_react@18.2.0
@@ -5945,7 +5945,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.18.9
       '@react-aria/focus': 3.7.0_react@18.2.0
-      '@react-aria/i18n': 3.5.0_react@18.2.0
+      '@react-aria/i18n': 3.5.1_react@18.2.0
       '@react-aria/interactions': 3.10.0_react@18.2.0
       '@react-aria/utils': 3.13.2_react@18.2.0
       '@react-stately/collections': 3.4.2_react@18.2.0
@@ -5978,7 +5978,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.18.9
       '@react-aria/focus': 3.7.0_react@18.2.0
-      '@react-aria/i18n': 3.5.0_react@18.2.0
+      '@react-aria/i18n': 3.5.1_react@18.2.0
       '@react-aria/interactions': 3.10.0_react@18.2.0
       '@react-aria/label': 3.4.0_react@18.2.0
       '@react-aria/utils': 3.13.2_react@18.2.0
@@ -6002,7 +6002,7 @@ packages:
         optional: true
     dependencies:
       '@babel/runtime': 7.18.9
-      '@react-aria/i18n': 3.5.0_react@18.2.0
+      '@react-aria/i18n': 3.5.1_react@18.2.0
       '@react-aria/live-announcer': 3.1.1
       '@react-aria/utils': 3.13.2_react@18.2.0
       '@react-types/button': 3.6.0_react@18.2.0
@@ -6052,7 +6052,7 @@ packages:
       '@babel/runtime': 7.18.9
       '@react-aria/focus': 3.7.0_react@18.2.0
       '@react-aria/grid': 3.4.0_biqbaboplfbrettd7655fr4n2y
-      '@react-aria/i18n': 3.5.0_react@18.2.0
+      '@react-aria/i18n': 3.5.1_react@18.2.0
       '@react-aria/interactions': 3.10.0_react@18.2.0
       '@react-aria/live-announcer': 3.1.1
       '@react-aria/selection': 3.10.0_react@18.2.0
@@ -6077,7 +6077,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.18.9
       '@react-aria/focus': 3.7.0_react@18.2.0
-      '@react-aria/i18n': 3.5.0_react@18.2.0
+      '@react-aria/i18n': 3.5.1_react@18.2.0
       '@react-aria/interactions': 3.10.0_react@18.2.0
       '@react-aria/selection': 3.10.0_react@18.2.0
       '@react-aria/utils': 3.13.2_react@18.2.0
@@ -6170,7 +6170,7 @@ packages:
         optional: true
     dependencies:
       '@babel/runtime': 7.18.9
-      '@react-aria/i18n': 3.5.0_react@18.2.0
+      '@react-aria/i18n': 3.5.1_react@18.2.0
       '@react-aria/interactions': 3.10.0_react@18.2.0
       '@react-aria/utils': 3.13.2_react@18.2.0
       '@react-stately/virtualizer': 3.2.2_react@18.2.0
@@ -6247,7 +6247,7 @@ packages:
       '@babel/runtime': 7.18.9
       '@react-aria/breadcrumbs': 3.3.0_react@18.2.0
       '@react-aria/focus': 3.7.0_react@18.2.0
-      '@react-aria/i18n': 3.5.0_react@18.2.0
+      '@react-aria/i18n': 3.5.1_react@18.2.0
       '@react-aria/interactions': 3.10.0_react@18.2.0
       '@react-aria/utils': 3.13.2_react@18.2.0
       '@react-spectrum/button': 3.9.0_iarnvdza54cgar6atbptfawwvm
@@ -6326,7 +6326,7 @@ packages:
       '@internationalized/date': 3.0.1
       '@react-aria/calendar': 3.0.1_biqbaboplfbrettd7655fr4n2y
       '@react-aria/focus': 3.7.0_react@18.2.0
-      '@react-aria/i18n': 3.5.0_react@18.2.0
+      '@react-aria/i18n': 3.5.1_react@18.2.0
       '@react-aria/interactions': 3.10.0_react@18.2.0
       '@react-aria/utils': 3.13.2_react@18.2.0
       '@react-aria/visually-hidden': 3.4.0_react@18.2.0
@@ -6387,7 +6387,7 @@ packages:
       '@react-aria/combobox': 3.4.0_biqbaboplfbrettd7655fr4n2y
       '@react-aria/dialog': 3.3.0_react@18.2.0
       '@react-aria/focus': 3.7.0_react@18.2.0
-      '@react-aria/i18n': 3.5.0_react@18.2.0
+      '@react-aria/i18n': 3.5.1_react@18.2.0
       '@react-aria/interactions': 3.10.0_react@18.2.0
       '@react-aria/label': 3.4.0_react@18.2.0
       '@react-aria/overlays': 3.10.0_biqbaboplfbrettd7655fr4n2y
@@ -6422,7 +6422,7 @@ packages:
         optional: true
     dependencies:
       '@babel/runtime': 7.18.9
-      '@react-aria/i18n': 3.5.0_react@18.2.0
+      '@react-aria/i18n': 3.5.1_react@18.2.0
       '@react-spectrum/button': 3.9.0_iarnvdza54cgar6atbptfawwvm
       '@react-spectrum/dialog': 3.5.0_iarnvdza54cgar6atbptfawwvm
       '@react-spectrum/provider': 3.5.0_biqbaboplfbrettd7655fr4n2y
@@ -6452,7 +6452,7 @@ packages:
       '@internationalized/number': 3.1.1
       '@react-aria/datepicker': 3.1.0_biqbaboplfbrettd7655fr4n2y
       '@react-aria/focus': 3.7.0_react@18.2.0
-      '@react-aria/i18n': 3.5.0_react@18.2.0
+      '@react-aria/i18n': 3.5.1_react@18.2.0
       '@react-aria/interactions': 3.10.0_react@18.2.0
       '@react-aria/utils': 3.13.2_react@18.2.0
       '@react-spectrum/button': 3.9.0_iarnvdza54cgar6atbptfawwvm
@@ -6488,7 +6488,7 @@ packages:
       '@babel/runtime': 7.18.9
       '@react-aria/dialog': 3.3.0_react@18.2.0
       '@react-aria/focus': 3.7.0_react@18.2.0
-      '@react-aria/i18n': 3.5.0_react@18.2.0
+      '@react-aria/i18n': 3.5.1_react@18.2.0
       '@react-aria/interactions': 3.10.0_react@18.2.0
       '@react-aria/overlays': 3.10.0_biqbaboplfbrettd7655fr4n2y
       '@react-aria/utils': 3.13.2_react@18.2.0
@@ -6609,7 +6609,7 @@ packages:
         optional: true
     dependencies:
       '@babel/runtime': 7.18.9
-      '@react-aria/i18n': 3.5.0_react@18.2.0
+      '@react-aria/i18n': 3.5.1_react@18.2.0
       '@react-aria/label': 3.4.0_react@18.2.0
       '@react-aria/utils': 3.13.2_react@18.2.0
       '@react-spectrum/form': 3.4.0_twydxmsxow6cdruzb7sewd3qei
@@ -6678,7 +6678,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.18.9
       '@react-aria/focus': 3.7.0_react@18.2.0
-      '@react-aria/i18n': 3.5.0_react@18.2.0
+      '@react-aria/i18n': 3.5.1_react@18.2.0
       '@react-aria/interactions': 3.10.0_react@18.2.0
       '@react-aria/listbox': 3.6.0_react@18.2.0
       '@react-aria/separator': 3.2.2_react@18.2.0
@@ -6714,7 +6714,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.18.9
       '@react-aria/focus': 3.7.0_react@18.2.0
-      '@react-aria/i18n': 3.5.0_react@18.2.0
+      '@react-aria/i18n': 3.5.1_react@18.2.0
       '@react-aria/interactions': 3.10.0_react@18.2.0
       '@react-aria/menu': 3.6.0_biqbaboplfbrettd7655fr4n2y
       '@react-aria/overlays': 3.10.0_biqbaboplfbrettd7655fr4n2y
@@ -6777,7 +6777,7 @@ packages:
       '@babel/runtime': 7.18.9
       '@react-aria/button': 3.6.0_react@18.2.0
       '@react-aria/focus': 3.7.0_react@18.2.0
-      '@react-aria/i18n': 3.5.0_react@18.2.0
+      '@react-aria/i18n': 3.5.1_react@18.2.0
       '@react-aria/interactions': 3.10.0_react@18.2.0
       '@react-aria/numberfield': 3.3.0_biqbaboplfbrettd7655fr4n2y
       '@react-aria/utils': 3.13.2_react@18.2.0
@@ -6835,7 +6835,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.18.9
       '@react-aria/focus': 3.7.0_react@18.2.0
-      '@react-aria/i18n': 3.5.0_react@18.2.0
+      '@react-aria/i18n': 3.5.1_react@18.2.0
       '@react-aria/interactions': 3.10.0_react@18.2.0
       '@react-aria/overlays': 3.10.0_biqbaboplfbrettd7655fr4n2y
       '@react-aria/select': 3.8.0_biqbaboplfbrettd7655fr4n2y
@@ -6889,7 +6889,7 @@ packages:
         optional: true
     dependencies:
       '@babel/runtime': 7.18.9
-      '@react-aria/i18n': 3.5.0_react@18.2.0
+      '@react-aria/i18n': 3.5.1_react@18.2.0
       '@react-aria/overlays': 3.10.0_biqbaboplfbrettd7655fr4n2y
       '@react-aria/utils': 3.13.2_react@18.2.0
       '@react-spectrum/utils': 3.7.2_react@18.2.0
@@ -6960,7 +6960,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.18.9
       '@react-aria/focus': 3.7.0_react@18.2.0
-      '@react-aria/i18n': 3.5.0_react@18.2.0
+      '@react-aria/i18n': 3.5.1_react@18.2.0
       '@react-aria/interactions': 3.10.0_react@18.2.0
       '@react-aria/slider': 3.2.0_react@18.2.0
       '@react-aria/utils': 3.13.2_react@18.2.0
@@ -7031,7 +7031,7 @@ packages:
       '@babel/runtime': 7.18.9
       '@react-aria/focus': 3.7.0_react@18.2.0
       '@react-aria/grid': 3.4.0_biqbaboplfbrettd7655fr4n2y
-      '@react-aria/i18n': 3.5.0_react@18.2.0
+      '@react-aria/i18n': 3.5.1_react@18.2.0
       '@react-aria/interactions': 3.10.0_react@18.2.0
       '@react-aria/table': 3.4.0_biqbaboplfbrettd7655fr4n2y
       '@react-aria/utils': 3.13.2_react@18.2.0
@@ -7071,7 +7071,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.18.9
       '@react-aria/focus': 3.7.0_react@18.2.0
-      '@react-aria/i18n': 3.5.0_react@18.2.0
+      '@react-aria/i18n': 3.5.1_react@18.2.0
       '@react-aria/interactions': 3.10.0_react@18.2.0
       '@react-aria/tabs': 3.3.0_react@18.2.0
       '@react-aria/utils': 3.13.2_react@18.2.0
@@ -7121,7 +7121,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.18.9
       '@react-aria/focus': 3.7.0_react@18.2.0
-      '@react-aria/i18n': 3.5.0_react@18.2.0
+      '@react-aria/i18n': 3.5.1_react@18.2.0
       '@react-aria/interactions': 3.10.0_react@18.2.0
       '@react-aria/textfield': 3.7.0_react@18.2.0
       '@react-aria/utils': 3.13.2_react@18.2.0
@@ -7216,7 +7216,7 @@ packages:
         optional: true
     dependencies:
       '@babel/runtime': 7.18.9
-      '@react-aria/i18n': 3.5.0_react@18.2.0
+      '@react-aria/i18n': 3.5.1_react@18.2.0
       '@react-aria/ssr': 3.3.0_react@18.2.0
       '@react-aria/utils': 3.13.2_react@18.2.0
       '@react-types/shared': 3.14.0_react@18.2.0
@@ -7234,7 +7234,7 @@ packages:
         optional: true
     dependencies:
       '@babel/runtime': 7.18.9
-      '@react-aria/i18n': 3.5.0_react@18.2.0
+      '@react-aria/i18n': 3.5.1_react@18.2.0
       '@react-aria/utils': 3.13.2_react@18.2.0
       '@react-spectrum/provider': 3.5.0_biqbaboplfbrettd7655fr4n2y
       '@react-spectrum/utils': 3.7.2_react@18.2.0
@@ -7518,7 +7518,7 @@ packages:
         optional: true
     dependencies:
       '@babel/runtime': 7.18.9
-      '@react-aria/i18n': 3.5.0_react@18.2.0
+      '@react-aria/i18n': 3.5.1_react@18.2.0
       '@react-aria/utils': 3.13.2_react@18.2.0
       '@react-stately/utils': 3.5.1_react@18.2.0
       '@react-types/shared': 3.14.0_react@18.2.0
@@ -9407,7 +9407,7 @@ packages:
     dependencies:
       '@babel/core': 7.18.9
       '@babel/helper-define-polyfill-provider': 0.3.2_@babel+core@7.18.9
-      core-js-compat: 3.24.0
+      core-js-compat: 3.24.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -9792,8 +9792,8 @@ packages:
     engines: {node: '>=6'}
     dev: false
 
-  /code-block-writer/11.0.2:
-    resolution: {integrity: sha512-goP2FghRVwp940jOvhtUrRDiSVU0h4Ah2jPX1gu2ueGW8boQmdQV4NwiHoM5MQQbUWLQuZopougO8+Ajljgpnw==}
+  /code-block-writer/11.0.3:
+    resolution: {integrity: sha512-NiujjUFB4SwScJq2bwbYUtXbZhBSlY6vYzm++3Q6oC+U+injTqfPYFK8wS9COOmb2lueqp0ZRB4nK1VYeHgNyw==}
     dev: true
 
   /code-point-at/1.1.0:
@@ -9857,7 +9857,7 @@ packages:
     dev: true
 
   /concat-map/0.0.1:
-    resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=}
+    resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
 
   /concurrently/7.3.0:
     resolution: {integrity: sha512-IiDwm+8DOcFEInca494A8V402tNTQlJaYq78RF2rijOrKEk/AOHTxhN4U1cp7GYKYX5Q6Ymh1dLTBlzIMN0ikA==}
@@ -9900,8 +9900,8 @@ packages:
     engines: {node: '>= 0.6'}
     dev: false
 
-  /core-js-compat/3.24.0:
-    resolution: {integrity: sha512-F+2E63X3ff/nj8uIrf8Rf24UDGIz7p838+xjEp+Bx3y8OWXj+VTPPZNCtdqovPaS9o7Tka5mCH01Zn5vOd6UQg==}
+  /core-js-compat/3.24.1:
+    resolution: {integrity: sha512-XhdNAGeRnTpp8xbD+sR/HFDK9CbeeeqXT6TuofXh3urqEevzkWmLRgrVoykodsw8okqo2pu1BOmuCKrHx63zdw==}
     dependencies:
       browserslist: 4.21.3
       semver: 7.0.0
@@ -13430,8 +13430,8 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
-  /nanostores/0.5.12:
-    resolution: {integrity: sha512-5BccS7nNInTc7Noz2gv19gyx5h5y6m72nj6ZnCTV98GdFdwvcFJf2MMl+7VsX76E1toV1YrLqlDn+R+OF73PVg==}
+  /nanostores/0.5.13:
+    resolution: {integrity: sha512-UxC2eZsCbbcHZ1Z/hwFQ1C4gy8Tkhzskvmu6wOsAhOMAOd72HmVX1Nxs96DSDUcd7V1x0IdRtsl+zAm7rg7slA==}
     engines: {node: ^12.0.0 || ^14.0.0 || >=16.0.0}
     dev: false
 
@@ -14001,19 +14001,19 @@ packages:
       find-up: 3.0.0
     dev: false
 
-  /playwright-core/1.24.1:
-    resolution: {integrity: sha512-1RoSDe/oTQS1Ct7Pb8i+vcFKbKYpmVIBXk0IUiD8RvCUMnNl7EJF1OSQ9E8TZ5RYamWkW2Psir9e8Doyz1FnhQ==}
+  /playwright-core/1.24.2:
+    resolution: {integrity: sha512-zfAoDoPY/0sDLsgSgLZwWmSCevIg1ym7CppBwllguVBNiHeixZkc1AdMuYUPZC6AdEYc4CxWEyLMBTw2YcmRrA==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
 
-  /playwright/1.24.1:
-    resolution: {integrity: sha512-ALAdckGTTZq6cPD/NlWE+OO5cgNBi9BHKk6FoDztlcVNJ07F1buwydTuf8wBu1Jzi+SGOpEfLR/83+2fS84ksQ==}
+  /playwright/1.24.2:
+    resolution: {integrity: sha512-iMWDLgaFRT+7dXsNeYwgl8nhLHsUrzFyaRVC+ftr++P1dVs70mPrFKBZrGp1fOKigHV9d1syC03IpPbqLKlPsg==}
     engines: {node: '>=14'}
     hasBin: true
     requiresBuild: true
     dependencies:
-      playwright-core: 1.24.1
+      playwright-core: 1.24.2
     dev: true
 
   /postcss-attribute-case-insensitive/5.0.2_postcss@8.4.14:
@@ -15756,8 +15756,8 @@ packages:
       svelte: 3.49.0
     dev: false
 
-  /tailwindcss/3.1.6:
-    resolution: {integrity: sha512-7skAOY56erZAFQssT1xkpk+kWt2NrO45kORlxFPXUt3CiGsVPhH1smuH5XoDH6sGPXLyBv+zgCKA2HWBsgCytg==}
+  /tailwindcss/3.1.7:
+    resolution: {integrity: sha512-r7mgumZ3k0InfVPpGWcX8X/Ut4xBfv+1O/+C73ar/m01LxGVzWvPxF/w6xIUPEztrCoz7axfx0SMdh8FH8ZvRQ==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     dependencies:
@@ -15941,7 +15941,7 @@ packages:
     resolution: {integrity: sha512-RBsGE2sDzUXFTnv8Ba22QfeuKbgvAGJFuTN7HfmIRUkgT/NaVLfDM/8OFm2NlFkGlWEXdpW5OaFIp1jvqdDuOg==}
     dependencies:
       '@ts-morph/common': 0.16.0
-      code-block-writer: 11.0.2
+      code-block-writer: 11.0.3
     dev: true
 
   /tsconfig-resolver/3.0.1:
